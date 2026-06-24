@@ -1,0 +1,47 @@
+{
+    "FIN7": {
+        "name": "FIN7",
+        "aliases": ["Carbanak", "Navigator Group"],
+        "motivation": "Financial",
+        "origin": "Russia",
+        "description": "Financially motivated threat group targeting retail, hospitality, and financial sectors",
+        "associated_malware": ["Carbanak", "GRIFFON"],
+        "ttps": ["T1566", "T1190", "T1059.001"]
+    },
+    "APT29": {
+        "name": "APT29",
+        "aliases": ["Cozy Bear", "The Dukes", "Midnight Blizzard"],
+        "motivation": "Espionage",
+        "origin": "Russia",
+        "description": "State-sponsored group associated with Russian intelligence services",
+        "associated_malware": ["WellMess", "WellMail"],
+        "ttps": ["T1566.001", "T1190", "T1071"]
+    },
+    "APT41": {
+        "name": "APT41",
+        "aliases": ["Double Dragon", "Wicked Panda"],
+        "motivation": "Espionage/Financial",
+        "origin": "China",
+        "description": "Chinese state-sponsored group conducting both espionage and financially motivated operations",
+        "associated_malware": ["ShadowPad", "Winnti"],
+        "ttps": ["T1190", "T1059", "T1041"]
+    },
+    "Lazarus Group": {
+        "name": "Lazarus Group",
+        "aliases": ["Hidden Cobra", "ZINC"],
+        "motivation": "Financial/Espionage",
+        "origin": "North Korea",
+        "description": "North Korean state-sponsored group known for financial theft and espionage",
+        "associated_malware": ["AppleJeus", "FALLCHILL"],
+        "ttps": ["T1566", "T1059", "T1486"]
+    },
+    "UNC5221": {
+        "name": "UNC5221",
+        "aliases": [],
+        "motivation": "Espionage",
+        "origin": "China (suspected)",
+        "description": "Threat cluster exploiting Ivanti vulnerabilities for initial access",
+        "associated_malware": ["WIREFIRE", "LIGHTWIRE"],
+        "ttps": ["T1190", "T1059", "T1041"]
+    }
+}

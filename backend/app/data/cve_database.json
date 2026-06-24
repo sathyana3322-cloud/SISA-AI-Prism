@@ -1,0 +1,72 @@
+{
+    "CVE-2023-3519": {
+        "id": "CVE-2023-3519",
+        "cvss": 9.8,
+        "severity": "critical",
+        "description": "Citrix ADC and Gateway Remote Code Execution vulnerability allowing unauthenticated attackers to execute arbitrary code",
+        "exploit_available": true,
+        "malware_families": ["LockBit", "Cl0p"],
+        "threat_actors": ["FIN7", "APT29"],
+        "affected_products": ["Citrix ADC", "Citrix Gateway"]
+    },
+    "CVE-2024-21887": {
+        "id": "CVE-2024-21887",
+        "cvss": 9.1,
+        "severity": "critical",
+        "description": "Ivanti Connect Secure and Policy Secure command injection vulnerability allowing authenticated administrators to execute arbitrary commands",
+        "exploit_available": true,
+        "malware_families": ["LockBit 3.0", "BlackCat"],
+        "threat_actors": ["UNC5221", "APT41"],
+        "affected_products": ["Ivanti Connect Secure", "Ivanti Policy Secure"]
+    },
+    "CVE-2024-53677": {
+        "id": "CVE-2024-53677",
+        "cvss": 6.5,
+        "severity": "medium",
+        "description": "Apache Struts file upload logic flaw that can enable path traversal in certain configurations",
+        "exploit_available": false,
+        "malware_families": [],
+        "threat_actors": [],
+        "affected_products": ["Apache Struts 2.0.0-2.5.33", "Apache Struts 6.0.0-6.3.0"]
+    },
+    "CVE-2024-12345": {
+        "id": "CVE-2024-12345",
+        "cvss": 7.8,
+        "severity": "high",
+        "description": "Remote code execution vulnerability in web application framework allowing authenticated attackers to execute system commands",
+        "exploit_available": true,
+        "malware_families": ["Emotet"],
+        "threat_actors": ["Lazarus Group"],
+        "affected_products": ["Generic Web Framework"]
+    },
+    "CVE-2024-3400": {
+        "id": "CVE-2024-3400",
+        "cvss": 10.0,
+        "severity": "critical",
+        "description": "Palo Alto Networks PAN-OS command injection vulnerability in GlobalProtect gateway allowing unauthenticated attackers to execute arbitrary code with root privileges",
+        "exploit_available": true,
+        "malware_families": ["UPSTYLE"],
+        "threat_actors": ["UTA0218"],
+        "affected_products": ["PAN-OS 10.2", "PAN-OS 11.0", "PAN-OS 11.1"]
+    },
+    "CVE-2023-44228": {
+        "id": "CVE-2023-44228",
+        "cvss": 9.8,
+        "severity": "critical",
+        "description": "Critical remote code execution vulnerability via JNDI injection in logging framework",
+        "exploit_available": true,
+        "malware_families": ["Mirai", "Muhstik", "XMRig"],
+        "threat_actors": ["APT41", "Lazarus Group", "Hafnium"],
+        "affected_products": ["Apache Log4j 2.x"]
+    },
+    "CVE-2024-0001": {
+        "id": "CVE-2024-0001",
+        "cvss": 3.5,
+        "severity": "low",
+        "description": "Information disclosure vulnerability allowing local attackers to read limited system information",
+        "exploit_available": false,
+        "malware_families": [],
+        "threat_actors": [],
+        "affected_products": ["Generic System Component"]
+    }
+}

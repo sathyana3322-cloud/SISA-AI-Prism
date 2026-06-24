@@ -1,0 +1,12 @@
+{
+    "secure-login-update.com": {"reputation": "malicious", "category": "phishing", "first_seen": "2026-06-01"},
+    "185.199.108.153": {"reputation": "suspicious", "category": "c2_server", "first_seen": "2026-05-15"},
+    "45.33.32.156": {"reputation": "malicious", "category": "c2_server", "first_seen": "2026-04-20"},
+    "update-service-cdn.com": {"reputation": "malicious", "category": "malware_distribution", "first_seen": "2026-05-01"},
+    "5d41402abc4b2a76b9719d911017c592": {"reputation": "malicious", "category": "ransomware_payload", "first_seen": "2026-03-10"},
+    "marketing-analytics-tracker.com": {"reputation": "suspicious", "category": "tracking", "first_seen": "2026-06-15"},
+    "evil-payload-server.net": {"reputation": "malicious", "category": "malware_distribution", "first_seen": "2026-01-01"},
+    "192.168.100.50": {"reputation": "suspicious", "category": "internal_scan", "first_seen": "2026-06-20"},
+    "d41d8cd98f00b204e9800998ecf8427e": {"reputation": "clean", "category": "empty_file_hash", "first_seen": "2020-01-01"},
+    "da39a3ee5e6b4b0d3255bfef95601890afd80709": {"reputation": "clean", "category": "empty_file_hash", "first_seen": "2020-01-01"}
+}
